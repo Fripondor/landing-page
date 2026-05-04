@@ -9,13 +9,14 @@ a {
 }
 
 
-nav {
+.hero, nav {
     background: #1F2937;
     
 }
 
 nav{
-    padding: 20px;
+    
+    padding: 10px 120px 10px 120px;
     
     
 }
@@ -24,26 +25,49 @@ ul {
     display: flex;
     align-items: baseline;
     list-style-type: none;
-    gap: 30px;
-}
-
-.header {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    flex-grow: 2;
+    padding: 0;
+    gap:20px
 }
 
 .logo {
     margin-right: auto;
 }
-
 .logo a {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 500;
 }
-.link a {
+.link a, .secondary-text {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.hero{
+    padding: 60px 120px 70px 120px;
+    display:flex;
+    gap:50px;
+    
+}
+
+strong {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+#heroimg {
+    width: auto;
+    height: 400px;
+    flex-shrink: 0;
+}
+
+button {
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 8px;
+  margin: 8px 0;
+  border: 0;
+  background: #3882F6;
+  color: #F9FAF8;
+
 }
