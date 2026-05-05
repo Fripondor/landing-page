@@ -43,7 +43,7 @@ ul {
 }
 
 .hero{
-    padding: 60px 120px 70px 120px;
+    padding: 70px 120px 70px 120px;
     display:flex;
     gap:50px;
     
@@ -78,13 +78,14 @@ button {
     font-weight: 900;
     display: flex;
     justify-content: center;
-    padding: 50px;
+    padding-top: 50px;
 }
 
 .random-info ul{
     display: flex;
     justify-content: center;
     gap: 40px;
+    padding: 50px 0 150px 0;
 }
 
 .random-info li{
@@ -106,7 +107,7 @@ button {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    padding: 60px 240px 70px 240px;
+    padding: 70px 240px 70px 240px;
 }
 
 .quote em{
@@ -119,4 +120,45 @@ button {
     color: #1F2937;
     align-self: flex-end;
     font-size: 20px;
+}
+
+.call {
+    display: flex;
+    background: #3882F6;
+    margin: 70px 120px 70px 120px;
+    border-radius: 5px;
+    justify-content: center;
+    align-content: center;
+    gap: 80px;
+    padding: 40px 80px 40px 80px;
+}
+
+.call-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+.call strong {
+    font-size: 20px;
+}
+.call p {
+    margin:0;
+    color:#F9FAF8;
+    font-weight: 300;
+}
+
+.call button{
+    border:#F9FAF8 solid 2px;
+    width: 100px;
+    align-self: center;
+}
+
+.footer {
+    margin:0;
+    background: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 20px;
+
 }
