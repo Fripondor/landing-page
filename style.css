@@ -71,3 +71,52 @@ button {
   color: #F9FAF8;
 
 }
+
+.random-info strong{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.random-info ul{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.random-info li{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+    gap:18px;
+    
+}
+.random-info img {
+    height: 200px;
+    width: 200px;
+    border: #3882F6 solid 5px;
+    border-radius: 30px;
+    
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 60px 240px 70px 240px;
+}
+
+.quote em{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.quote strong {
+    color: #1F2937;
+    align-self: flex-end;
+    font-size: 20px;
+}
